@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <title>CONCESSIONÁRIA</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>AULA 13</h1> 
+
+        <p>DEVELOPER: YURI ELIAS®</p>
+    </header>
+
+    <section class="sec1">
+        <form id="form" action="button">
+            <div class="div_form">
+           
+                <label for="marca">MARCA:</label>
+                <input type="text" id="marca" name="marca" required placeholder="ex: toyota, hyundai, honda, jeep ">
+                <br>
+                <label for="modelo">MODELO:</label>
+                <input type="text" id="modelo" name="modelo" required placeholder="ex: corola, elantra, civic, renegade ">
+                <br>
+                <label for="data">ANO:</label>
+                <input type="datetime" id="data" name="data" required placeholder="ex: 2019">
+                <br>
+                <label for="Valor">VALOR:</label>
+                <input type="number" id="valor" name="Valor" required placeholder="R$ 00,00">
+                <br>
+                <label for="cor">COR:</label>
+                <input type="text" id="cor" name="cor" required placeholder="Digite a cor">
+                <br>
+                <div class="check">
+                    <label for="ar">Ar-condicionado?</label>
+                    <input type="checkbox" id="ar" name="ar">
+                </div>
+
+            </div>
+
+            <button id="but" type="submit">Adicionar</button>
+
+        </form>
+       
+
+
+        <div id="add">
+
+            
+        </div>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
